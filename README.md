@@ -1,15 +1,15 @@
 # Quiz-Proctoring-System
 
-### Project Description
+## Project Description
 A Prolog program to assign Teaching Assistants (TAs) as proctors for quizzes based on their teaching schedules. The system will handle quizzes scheduled at different times during the week, ensuring each quiz has the required number of proctors while considering the constraints of TAs' availability.
 
-### Key Constraints
+#### Key Constraints
 1. Each quiz requires a specific number of proctors.
 2. TAs cannot proctor during their teaching slots.
 3. TAs cannot proctor on their day off.
 4. A TA cannot proctor more than one quiz at the same time.
 
-### Required Predicates
+#### Required Predicates
 1. **assign_proctors(AllTAs, Quizzes, TeachingSchedule, ProctoringSchedule)**
    - Assigns TAs to quizzes ensuring all constraints are met.
    - **Parameters:**
@@ -39,7 +39,7 @@ A Prolog program to assign Teaching Assistants (TAs) as proctors for quizzes bas
      - `FreeSchedule`: Schedule of when TAs are free.
      - `AssignedTAs`: List of TAs assigned to the quiz.
 
-### Example Usage
+#### Example Usage
 - **assign_proctors/4**: Determines possible proctor assignments for all quizzes.
 - **free_schedule/3**: Calculates when TAs are available based on their teaching schedules and days off.
 - **assign_quizzes/3**: Assigns available TAs to all quizzes.
