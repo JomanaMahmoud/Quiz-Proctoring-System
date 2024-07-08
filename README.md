@@ -1,4 +1,4 @@
-# Quiz-Proctoring-System
+# Quiz Proctoring System
 
 ## Project Description
 A Prolog program to assign Teaching Assistants (TAs) as proctors for quizzes based on their teaching schedules. The system will handle quizzes scheduled at different times during the week, ensuring each quiz has the required number of proctors while considering the constraints of TAs' availability.
