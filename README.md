@@ -45,3 +45,33 @@ A Prolog program to assign Teaching Assistants (TAs) as proctors for quizzes bas
 - **assign_quizzes/3**: Assigns available TAs to all quizzes.
 - **assign_quiz/3**: Finds possible TAs for a single quiz from the free schedule.
 
+## How to Install
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/yehiarasheed/Quiz-Proctoring-System.git
+   cd Quiz-Proctoring-System
+   ```
+   This command downloads a copy of the repository to your local machine and navigates into the project directory.
+
+2. **Install SWI-Prolog:**
+   Download and install SWI-Prolog from the [official SWI-Prolog website](https://www.swi-prolog.org). SWI-Prolog is the recommended Prolog compiler for this project.
+
+3. **Open the Project:**
+   - Launch SWI-Prolog.
+   - Consult the project files by loading them into SWI-Prolog:
+     ```prolog
+     consult('path_to_file.pl').
+     ```
+   Replace 'path_to_file.pl' with the actual path to the Prolog file you want to load.
+   - Alternatively, use the consult button in SWI-Prolog by navigating to File → Consult.
+
+## Dependencies
+
+This project requires the following dependencies:
+
+- **SWI-Prolog**: The recommended Prolog compiler for running the Quiz Proctoring System.
+
+Ensure SWI-Prolog is installed and properly configured on your machine to run the Prolog code in this project.
+
+---
